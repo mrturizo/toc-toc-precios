@@ -5,6 +5,7 @@ import {
   Outlet,
   Route,
   Routes,
+  Link,
 } from 'react-router-dom';
 import { LoginPage } from '../features/auth/LoginPage';
 import { useAuth } from '../features/auth/AuthContext';
@@ -24,8 +25,8 @@ const ProtectedLayout: React.FC = () => {
       <header className="app-header">
         <h1>TocToc Precios</h1>
         <nav>
-          <a href="/products">Productos</a>
-          <a href="/indices">Índice diario</a>
+          <Link to="/products">Productos</Link>
+          <Link to="/indices">Índice diario</Link>
         </nav>
         <button onClick={logout}>Salir</button>
       </header>
