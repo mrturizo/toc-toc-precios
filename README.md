@@ -44,3 +44,4 @@ El flujo base:
 4. **Detalle de producto**: al hacer clic en un producto, se ve su histórico de precios por cadena.
 
 
+

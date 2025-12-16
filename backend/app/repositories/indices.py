@@ -42,3 +42,4 @@ async def get_daily_index(
     ]
 
 
+

@@ -95,3 +95,4 @@ async def read_me(current_user: User = Depends(get_current_user)) -> UserRead:
     return UserRead.model_validate(current_user)
 
 
+

@@ -40,3 +40,4 @@ class ProductDetail(BaseModel):
         from_attributes = True
 
 
+

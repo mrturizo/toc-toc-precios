@@ -74,3 +74,4 @@ class HistoricalPrice(Base):
     city: Mapped[City] = relationship(back_populates="prices")
 
 
+

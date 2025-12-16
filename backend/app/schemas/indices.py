@@ -8,3 +8,4 @@ class DailyIndexPoint(BaseModel):
     index_value: float
 
 
+
