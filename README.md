@@ -2,6 +2,11 @@
 
 Aplicación MVP para visualizar productos y sus precios en varias cadenas, y un índice diario de precios.
 
+### Requisitos previos
+
+- **Python**: 3.12.10 o superior
+- **Node.js**: v22.17.1 o superior (incluye npm)
+
 ### Backend (FastAPI)
 
 - Ir a `backend/`
